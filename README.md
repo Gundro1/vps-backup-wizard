@@ -53,8 +53,14 @@ Version: 1.0.0
 [Rest of the script here]
 
 ## Recovery
-
 To restore from backup:
+Extract backup
+tar -xzf vps_backup_YYYYMMDD_HHMM.tar.gz
+Review contents
+ls -la
+Restore specific files
+cp -r project_files/ ~/
+cp -r system_configs/ /etc/systemd/system/
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -63,7 +69,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 MIT License
 
 ## Author
-Your Name
+GUNDRO
 
 ## Acknowledgments
 - Inspired by VPS management best practices
