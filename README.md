@@ -10,7 +10,7 @@ backs up all important projects, configurations, and system files without prior 
 ## 🚀 Quick Start
 bash
 Clone the repository
-git clone https://github.com/Gundro1/vps-smart-backup.git
+git clone https://github.com/Gundro1/vps-backup-wizard.git
 Make script executable
 cd vps-smart-backup
 chmod +x discover_and_backup.sh
